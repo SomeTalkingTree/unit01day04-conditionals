@@ -19,11 +19,14 @@ public class Quadratic {
                     System.out.println("One answer is "+ans1);
                     System.out.println("Another anwser is "+ans2);
                 } else {
-                    Double yes = (Math.pow(num1,2)+(-4*num*num2));
-                    System.out.println("This is not possible because you cannot square root "+yes);
+                    Double ans4 = (Math.pow(num1,2)+(-4*num*num2));
+                    System.out.println("You can not square root "+ans4);
+                    
                 }
              } else{
-                System.out.println("A is equal to zero, so it isn't possible to do this.");}
+                Double ans3 = ((num2 *-1)/num1);
+                System.out.println("The anwser is "+ ans3);
+            }
     }        
         
         
