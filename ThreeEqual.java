@@ -1,3 +1,4 @@
+// good. careful with boolean operator and (&&)
 public class ThreeEqual {
     public static void main(String[] args) {
         
@@ -10,11 +11,11 @@ public class ThreeEqual {
             if (num == num1 & num == num2 & num1 == num2) {
                 System.out.println("This is all equal");
             } else if(num != num1 || num1 != num2 || num != num2){
-                if(num == num1 & num1 !=num2){
+                if(num == num1 && num1 !=num2){
                     System.out.println("The last number is not equal to the others.");
-                } else if(num != num1 & num1 ==num2){
+                } else if(num != num1 && num1 ==num2){
                     System.out.println("The first number is not equal to the others.");
-                } else if(num == num2 & num !=num1){
+                } else if(num == num2 && num !=num1){
                     System.out.println("The second number is not equal to the others.");
                 }else{
                     System.out.println("None of the numbers are equal to each other.");
