@@ -1,5 +1,4 @@
-import javax.swing.plaf.synth.SynthSpinnerUI;
-
+// good
 public class RollLoadedDie {
     public static void main(String[] args) {
         Double test = Math.random();
